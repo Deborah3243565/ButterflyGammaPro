@@ -1,0 +1,86 @@
+{
+  "EnableOsd": true,
+  "EnableTransition": true,
+  "AntiResetLock": true,
+  "ActiveProfileId": "default_outdoor",
+  "TargetMonitor": "ALL",
+  "CloseBehavior": 2,
+  "RememberCloseChoice": true,
+  "Profiles": [
+    {
+      "Id": "default_outdoor",
+      "Name": "【日常/室外】恢复正常屏幕",
+      "KeyName": "F7",
+      "VirtualKey": 118,
+      "Modifiers": 0,
+      "IsReadOnly": true,
+      "BlackEqualizer": 0,
+      "HighlightRolloff": 0,
+      "Red": {
+        "Gamma": 100,
+        "Brightness": 0,
+        "Contrast": 100
+      },
+      "Green": {
+        "Gamma": 100,
+        "Brightness": 0,
+        "Contrast": 100
+      },
+      "Blue": {
+        "Gamma": 100,
+        "Brightness": 0,
+        "Contrast": 100
+      }
+    },
+    {
+      "Id": "default_indoor",
+      "Name": "【游戏内】室内/暗部 强力提亮",
+      "KeyName": "F8",
+      "VirtualKey": 119,
+      "Modifiers": 0,
+      "IsReadOnly": false,
+      "BlackEqualizer": 55,
+      "HighlightRolloff": 45,
+      "Red": {
+        "Gamma": 190,
+        "Brightness": -8,
+        "Contrast": 140
+      },
+      "Green": {
+        "Gamma": 190,
+        "Brightness": -8,
+        "Contrast": 140
+      },
+      "Blue": {
+        "Gamma": 190,
+        "Brightness": -8,
+        "Contrast": 140
+      }
+    },
+    {
+      "Id": "default_extreme",
+      "Name": "【游戏内】极夜/地道 极限透光",
+      "KeyName": "F9",
+      "VirtualKey": 120,
+      "Modifiers": 0,
+      "IsReadOnly": false,
+      "BlackEqualizer": 50,
+      "HighlightRolloff": 55,
+      "Red": {
+        "Gamma": 250,
+        "Brightness": -8,
+        "Contrast": 145
+      },
+      "Green": {
+        "Gamma": 250,
+        "Brightness": -8,
+        "Contrast": 145
+      },
+      "Blue": {
+        "Gamma": 250,
+        "Brightness": -8,
+        "Contrast": 145
+      }
+    }
+  ]
+}

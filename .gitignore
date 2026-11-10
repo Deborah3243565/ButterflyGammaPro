@@ -1,0 +1,34 @@
+# ========================================================
+# 🦋 Butterfly Gamma Pro - Git 忽略规则
+# ========================================================
+
+# 1. 大体积二进制与打包产物（重要：请通过 GitHub Releases 附件发布，严禁直接 commit 到仓库）
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+GitHub_Release.zip
+GitHub_Release/
+
+# 2. Windows 系统与资源管理器副作用
+[Dd]esktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# 3. 日志、临时文件与崩溃转储
+*.log
+*.tmp
+*.bak
+*.dmp
+CrashDumps/
+
+# 4. 开发环境与构建缓存（如后续添加源码）
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosv
+*.sln.docstates
