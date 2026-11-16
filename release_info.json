@@ -1,0 +1,24 @@
+{
+  "tag_name": "v1.0.3",
+  "name": "Butterfly Gamma Pro v1.0.3 正式版",
+  "body": "【Butterfly Gamma Pro (小蝴蝶滤镜 Pro) v1.0.3 正式版】\n\n1. ⚡ 独家电竞零掉帧架构：单次硬件原子写入显卡 LUT，0.002ms 极速响应，显卡交换链零卡顿，彻底杜绝对枪切滤镜掉帧！\n2. 🖥️ 原生多显示器（Multi-Monitor）隔离调色架构：主屏游戏提亮，副屏 Discord/OBS/地图 100% 原始色彩，互不干扰。\n3. 👁️ 暗部平衡（Black Equalizer）非线性灰阶算法：专注提亮 0%~25% 纯暗部，锁定高光绝不雪盲、枪火不刺眼。\n4. 🎨 RGB 三通道独立调节与偏色矫正：支持全通道联动或单独微调红、绿、蓝单通道。\n5. 🚀 内置多节点全自动静默热更新：国内 CDN 镜像加速，发现新版一键原地热替换自重启。\n6. 🎮 全屏独占穿透热键支持（F1~F12 / 鼠标侧键）。",
+  "published_at": "2026-11-16T08:02:09Z",
+  "html_url": "https://github.com/Deborah3243565/ButterflyGammaPro/releases/tag/v1.0.3",
+  "assets": [
+    {
+      "name": "小蝴蝶滤镜_Pro.exe",
+      "browser_download_url": "https://github.com/Deborah3243565/ButterflyGammaPro/releases/download/v1.0.3/小蝴蝶滤镜_Pro.exe",
+      "size": 68307964
+    },
+    {
+      "name": "小蝴蝶滤镜_极速轻巧版(需.NET8依赖).exe",
+      "browser_download_url": "https://github.com/Deborah3243565/ButterflyGammaPro/releases/download/v1.0.3/小蝴蝶滤镜_极速轻巧版(需.NET8依赖).exe",
+      "size": 498315
+    },
+    {
+      "name": "GitHub_Release.zip",
+      "browser_download_url": "https://github.com/Deborah3243565/ButterflyGammaPro/releases/download/v1.0.3/GitHub_Release.zip",
+      "size": 63117480
+    }
+  ]
+}
